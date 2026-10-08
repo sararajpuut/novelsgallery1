@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #173F35;
+    --secondary: #4A3025;
+    --accent: #C8A45D;
+    --bg-warm: #F8F4EA;
+    --card-bg: #FFFFFF;
+    --text-charcoal: #252525;
+    --text-muted: #6B6B6B;
+    --bg-light: #EEE8D8;
+  }
+
+  body {
+    background-color: var(--bg-warm);
+    color: var(--text-charcoal);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-serif-display {
+  font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+}
+
+.font-editorial {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans-body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.font-urdu {
+  font-family: 'Noto Nastaliq Urdu', 'Amiri', 'Jameel Noori Nastaleeq', serif;
+}
+
+/* Custom Scrollbar for Literary Feel */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #F1ECE0;
+}
+::-webkit-scrollbar-thumb {
+  background: #C8A45D88;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #173F35AA;
+}
+
+/* Reader Typography Styles */
+.urdu-reading-text {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Noto Nastaliq Urdu', 'Amiri', serif;
+  word-spacing: 0.1em;
+}

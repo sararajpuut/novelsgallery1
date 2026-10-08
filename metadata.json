@@ -1,0 +1,6 @@
+{
+  "name": "Novels Gallery",
+  "description": "A premier digital library and reading platform for Urdu novels, classical literature, episodes, e-books, and renowned Urdu authors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
